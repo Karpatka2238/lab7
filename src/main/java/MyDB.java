@@ -37,7 +37,7 @@ public class MyDB {
             try{
                 conn.close();
             }catch(SQLException e){
-                System.out.printf("nie udalo sie zamknac poloczenia");
+                System.out.printf("nie udalo sie zamknac polaczenia");
             }
         }
         conn=null;
